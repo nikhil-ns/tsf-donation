@@ -56,7 +56,7 @@ body {
     position: relative;
 }
 
-.container .nav_bar ul li a::before:not(.btn){
+.container .nav_bar ul li a::before{
     content: "";
     bottom: 0;
     position: absolute;
@@ -83,6 +83,9 @@ body {
     color: #e2fdff;
     text-decoration: none;
     background-color: #788bff;
+}
+.container .nav_bar ul li .btn:hover a::before{
+    width: 0;
 }
 
 /* Main  */
