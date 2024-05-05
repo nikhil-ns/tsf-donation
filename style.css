@@ -290,5 +290,9 @@ body {
         position: absolute;
         padding: 0;
         margin-left: 5px;
+        height: 100px;
+        width: 100px;
+        padding: 2px;
+        border-radius: 10px;
     }
 }
